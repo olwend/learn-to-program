@@ -35,14 +35,20 @@ puts var1.to_s + var2
 
 puts var1 + var2.to_i
 
-#puts 'Hello there,and what\'s your first name?'
-#f_name = gets.chomp
-#puts 'your name is ' + f_name +'? What a lovely name'
-#puts 'and do you have a middle name?'
-#m_name = gets.chomp
-#puts 'and your surname?'
-#s_name = gets.chomp
-#puts 'Pleased to meet you, ' + f_name + m_name + s_name +'. :)'
+puts '15'.to_f
+puts '99.9999'.to_f
+puts '99.9999'.to_i
+puts' '
+
+puts 'Hello there,and what\'s your first name?'
+f_name = gets.chomp
+puts 'your name is ' + f_name +'? What a lovely name'
+puts 'and do you have a middle name?'
+m_name = gets.chomp
+puts 'and your surname?'
+s_name = gets.chomp
+puts 'Pleased to meet you, ' + f_name + m_name + s_name +' :)'
+puts' '
 
 puts "Tell me your favourite number"
 favourite = gets.chomp
